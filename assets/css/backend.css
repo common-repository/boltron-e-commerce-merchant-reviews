@@ -1,0 +1,38 @@
+a:active, a:hover {
+    color: #00a0d2;
+}
+
+.pqc-wrapper nav.pqc-nav-tab-wrapper {
+    margin: 1.5em 0 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.wp-core-ui .pqc-wrapper .button-primary.focus,
+.wp-core-ui .pqc-wrapper .button-primary.hover,
+.wp-core-ui .pqc-wrapper .button-primary:focus,
+.wp-core-ui .pqc-wrapper .button-primary:hover {
+    background: rgba(2, 136, 209, 0.76);
+    border-color: rgba(2, 136, 209, 0.76);
+    color: #fff;
+}
+
+.wp-core-ui .pqc-wrapper .button-primary {
+    background: #0288d1;
+    border-color: #0288d1 #0288d1 #0288d1;
+    -webkit-box-shadow: 0 1px 0 #0288d1;
+    box-shadow: 0 1px 0 #0288d1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #0288d1,1px 0 1px #0288d1,0 1px 1px #0288d1,-1px 0 1px #0288d1;
+}
+
+.wp-core-ui .pqc-wrapper .button-success {
+    background: #8BC34A;
+    border-color: #8BC34A #8BC34A #8BC34A;
+    -webkit-box-shadow: 0 1px 0 #8BC34A;
+    box-shadow: 0 1px 0 #8BC34A;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #8BC34A,1px 0 1px #8BC34A,0 1px 1px #8BC34A,-1px 0 1px #8BC34A;
+}

@@ -1,0 +1,197 @@
+.text_red {
+    color: #A33632;
+    font-family: impact;
+}
+
+.grade {
+    color: #FFA500;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    clear: both;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.grade-float {
+    font-size: 40px;
+    line-height: 1;
+    border: 3px solid #FFA500;
+    padding: 5px;
+    /* border-radius: 3px; */
+    margin-top: -5px;
+}
+
+.grade-text {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1;
+    background: #FFA500;
+    color: #fff;
+    /* border-radius: 3px; */
+}
+
+.merchant-profile-link {
+    text-decoration: none;
+    font-family: impact;
+    display:block;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.main_tit {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.verified {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.boltron-widget-logo {
+    width: auto;
+    height: 30px !important;
+    margin: auto;
+}
+
+.boltron-widget-icon {
+    width: 30px;
+    height: 30px !important;
+    margin: 3px auto;
+}
+
+.boltron-widget-float {
+    width: 220px;
+    height: 80px;
+    display: block;
+    position: fixed;
+    cursor:pointer;
+    text-align: center;
+    outline: none !important;
+    text-decoration: none !important;
+    background: rgba(255, 245, 226, 0.68);
+}
+
+.boltron-widget-float.widget-left {
+    transition: left 0.3s ease 0s;
+    bottom: 10px;
+    left: -123px;
+}
+
+.boltron-widget-float.widget-right {
+    transition: right 0.3s ease 0s;
+    bottom: 10px;
+    right: -123px;
+}
+
+.boltron-widget-float.widget-left .instant {
+    width: 85px;
+    float: right;
+    background: #fff;
+}
+
+.boltron-widget-float.widget-right .instant {
+    width: 85px;
+    float: left;
+    background: #fff;
+}
+
+.boltron-widget-float.widget-left .verified-by {
+    width: 135px;
+    float: right;
+}
+
+.boltron-widget-float.widget-right .verified-by {
+    width: 135px;
+    float: left;
+}
+
+.boltron-widget-float.widget-left:hover {
+    left: 0;
+}
+
+.boltron-widget-float.widget-right:hover {
+    right: 0;
+}
+
+.boltron-cs-widget {
+    z-index: 999;
+    width: 60px;
+    position: fixed;
+    bottom: 110px;
+    right: 30px;
+    background: #fff;
+    padding: 4px;
+    box-shadow: rgba(22, 45, 61, 0.36) 0px 0px 14px 0px;
+    border-radius: 2em 2em 8px 2em;
+    cursor: pointer;
+}
+
+.boltron-cs-widget .iframe-wrapper .iframeclass {
+    width: 420px !important;
+    height: 520px !important;
+    border: 0;
+    overflow-y: hidden;
+    resize: none;
+}
+
+.boltron-cs-widget .iframe-wrapper .iframe-header {
+    background: orange;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.boltron-cs-widget .iframe-wrapper .iframe-header .close-icon {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    border: 2px solid #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.boltron-cs-widget .iframe-wrapper,
+.boltron-cs-widget.iframe .icon-wrapper {
+    display: none;
+}
+
+.boltron-cs-widget.iframe .iframe-wrapper {
+    display: block;
+}
+
+.boltron-cs-widget.iframe {
+    width: auto;
+    border-radius: 3px;
+}
+
+.boltron-cs-widget .icon-wrapper {
+    background: #FFA500;
+    padding: 12px;
+    border-radius: 2em;
+}
